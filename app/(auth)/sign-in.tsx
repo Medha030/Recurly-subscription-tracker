@@ -35,6 +35,7 @@ function errorMessage(error: unknown, fallback: string) {
 }
 
 const SignIn = () => {
+    // @ts-ignore
     const { signIn, setActive } = useSignIn();
     const { isSignedIn } = useAuth();
     const posthog = usePostHog();
