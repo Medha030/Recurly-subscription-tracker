@@ -6,7 +6,7 @@ import {useFonts} from "expo-font";
 import {useEffect, useRef} from "react";
 import { ActivityIndicator, View } from "react-native";
 import { PostHogProvider } from "posthog-react-native";
-import { posthog } from "@/lib/posthog";
+import { posthog } from "@/src/config/posthog";
 
 SplashScreen.preventAutoHideAsync();
 
