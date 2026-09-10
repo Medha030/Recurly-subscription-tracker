@@ -79,23 +79,23 @@ Recurly/
 
 ```bash
 # Clone the repository
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/Medha030/Recurly-subscription-tracker.git
 
 # Open the project
 cd Recurly
 
 # Install dependencies
-<YOUR_INSTALL_COMMAND>
+npm install
 
 # Start / run the app
-<YOUR_RUN_COMMAND>
+npx expo start
 ```
 
 ## 📦 APK / Demo
 
-- **APK:** `<ADD_APK_LINK>`
+- **APK:** `https://expo.dev/accounts/medha_03/projects/React_Native-Recurly/builds/2e100482-5f8e-4174-9a0d-7359c9bf526e`
 - **Demo video:** `recurly-portfolio-demo.mp4`
-- **Repository:** `<ADD_GITHUB_REPOSITORY_LINK>`
+- **Repository:** `https://github.com/Medha030/Recurly-subscription-tracker.git`
 
 ## 🎯 Project Focus
 
@@ -120,10 +120,10 @@ This project focuses on building a practical personal-finance experience with:
 
 ## 👤 Author
 
-**[Your Name]**
+**[G.V.MEDHA SREE]**
 
 - GitHub: `https://github.com/Medha030`
-- LinkedIn: `<www.linkedin.com/in/gv-medha-sree-15918a350>`
+- LinkedIn: `www.linkedin.com/in/gv-medha-sree-15918a350`
 - Portfolio: `<YOUR_PORTFOLIO_URL>`
 
 ---
