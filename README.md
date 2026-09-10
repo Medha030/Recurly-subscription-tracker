@@ -1,53 +1,131 @@
-# Welcome to your Expo app 👋
+# Recurly — Subscription Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern mobile subscription-management app designed to make recurring expenses easier to understand, monitor, and manage.
 
-## Get started
+## ✨ Overview
 
-1. Install dependencies
+Recurly brings recurring subscriptions into one clean dashboard. Users can quickly see their current balance, upcoming charges, active subscriptions, and spending insights without having to dig through multiple apps or statements.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Highlights
 
-2. Start the app
+- **Dashboard** — View balance and upcoming subscription charges at a glance.
+- **Subscription management** — Browse active subscriptions with price, billing frequency, category, start date, renewal date, and status.
+- **Search** — Quickly filter the subscription list.
+- **Monthly insights** — Visualize upcoming recurring expenses and review subscription history.
+- **Add subscription** — Create a subscription with name, price, billing frequency, and category.
+- **Clean mobile UI** — Card-based layout, clear hierarchy, rounded components, and a consistent visual system.
+- **Bottom navigation** — Fast access to the main areas of the app.
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Screenshots
 
-In the output, you'll find options to open the app in a
+### Home Dashboard
+![Recurly Home](screenshots/01-home-dashboard.png)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Subscriptions
+![Recurly Subscriptions](screenshots/02-subscriptions.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Monthly Insights
+![Recurly Insights](screenshots/03-monthly-insights.png)
 
-## Get a fresh project
+### Add Subscription
+![Recurly Add Subscription](screenshots/04-add-subscription.png)
 
-When you're ready, run:
+## 🎥 Demo
 
-```bash
-npm run reset-project
+**Portfolio demo:** `recurly-portfolio-demo.mp4`
+
+Suggested showcase flow:
+
+`Dashboard → Subscriptions → Monthly Insights → Add Subscription`
+
+## 🧩 Core User Flow
+
+1. Open Recurly and review the current balance.
+2. Check upcoming recurring payments.
+3. Browse all subscriptions and search the list.
+4. Open Monthly Insights to understand upcoming expenses and history.
+5. Add a new subscription with its price, frequency, and category.
+
+## 🛠️ Tech Stack
+
+| Category               | Technology used                                               |
+| ---------------------- | ------------------------------------------------------------- |
+| **Frontend / Mobile**  | **React Native**                                              |
+| **Framework**          | **Expo**                                                      |
+| **Language**           | **JavaScript / JSX**                                          |
+| **Styling**            | **NativeWind v5** (Tailwind CSS)                              |
+| **Navigation**         | **Expo Router**                                               |
+| **State management**   | **React state/hooks** for the course project; **not Zustand** |
+| **Authentication**     | **Clerk**                                                     |
+| **Analytics**          | **PostHog**                                                   |
+| **Backend**            | **Node.js + Express**                                         |
+| **Database / Storage** | **MongoDB**                                                   |
+| **Build & deployment** | **Expo EAS**                                                  |
+
+## 📂 Project Structure
+
+```text
+Recurly/
+├── README.md
+├── screenshots/
+│   ├── 01-home-dashboard.png
+│   ├── 02-subscriptions.png
+│   ├── 03-monthly-insights.png
+│   └── 04-add-subscription.png
+└── ...
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## ⚙️ Installation
 
-## Learn more
+```bash
+# Clone the repository
+git clone <YOUR_REPOSITORY_URL>
 
-To learn more about developing your project with Expo, look at the following resources:
+# Open the project
+cd Recurly
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# Install dependencies
+<YOUR_INSTALL_COMMAND>
 
-## Join the community
+# Start / run the app
+<YOUR_RUN_COMMAND>
+```
 
-Join our community of developers creating universal apps.
+## 📦 APK / Demo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **APK:** `<ADD_APK_LINK>`
+- **Demo video:** `recurly-portfolio-demo.mp4`
+- **Repository:** `<ADD_GITHUB_REPOSITORY_LINK>`
 
-# react-native-recurly
-# react-native-recurly
+## 🎯 Project Focus
+
+This project focuses on building a practical personal-finance experience with:
+
+- clear information hierarchy
+- intuitive subscription management
+- useful spending visualization
+- responsive mobile interactions
+- a polished, portfolio-friendly UI
+
+## 📌 Future Improvements
+
+- Push notifications before renewal dates
+- Automatic subscription detection
+- Cloud sync across devices
+- Authentication and user profiles
+- Exportable spending reports
+- Budget limits and spending alerts
+- Dark mode
+- Real payment/billing integrations
+
+## 👤 Author
+
+**[Your Name]**
+
+- GitHub: `https://github.com/Medha030`
+- LinkedIn: `<www.linkedin.com/in/gv-medha-sree-15918a350>`
+- Portfolio: `<YOUR_PORTFOLIO_URL>`
+
+---
+
+⭐ If you find Recurly useful, consider starring the repository.
